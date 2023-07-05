@@ -1,0 +1,25 @@
+/*mobile*/
+@media(min-width:320px){
+		.container{width:100%;}
+		.col{width:40%; 
+		padding:30px 90px;}		
+}
+
+/*ipad*/
+@media(min-width:650px){
+		.container{width:100%;}
+		#banner{background-size:cover;}
+}
+
+/*laptop*/
+@media(min-width:1000px){
+		.container{
+				width:40%;
+				background-color:#212F3C;
+				height:100vh;
+				}
+
+		.row{width:100%;}
+
+		.col{width:100%;}
+}
